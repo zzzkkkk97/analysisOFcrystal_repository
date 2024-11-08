@@ -4,4 +4,4 @@
 This is my project.
 
 author
-*Yu
+*XiaoYu
