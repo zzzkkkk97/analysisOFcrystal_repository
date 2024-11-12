@@ -4,4 +4,4 @@
 This is my project.
 
 author
-*XiaoYu  Wang
+*XiaoYu  Wangg
