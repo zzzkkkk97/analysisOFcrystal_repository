@@ -1,8 +1,9 @@
-# FIRST_project
+# 基于python对crystal项目的历史提交信息的分析统计
+
 
 ##Introduction
-This is my project.
+This is our project.
 
 author
-*XiaoYu  Wangg
+*XiaoYu  Wang
 
