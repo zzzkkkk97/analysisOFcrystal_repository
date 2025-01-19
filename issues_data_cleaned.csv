@@ -1,0 +1,241 @@
+Update Content,Update Type,View Count,Update Time
+File.match? has an issue with paths,kind:bug,15353,2025-01-17
+<code>Enumerable#sum(&amp;)</code> fails with certain block arguments,topic:compiler:cli,15352,2025-01-17
+C lib constants and Enum members currently don't allow leading underscores,status:discussion,15342,2025-01-14
+"Please write on the ""Release"" downloadable files what operating systems they are ment for",topic:stdlib:networking,15338,2025-01-12
+Add parameter and return type restrictions to all stdlib public methods,kind:feature,15334,2025-01-09
+Implement RFC 0002: ExecutionContext [EPIC],topic:multithreading,15322,2025-01-06
+Codegen bug with duplicate ivar declaration and inheriting from generic instance type,tough-cookie,15321,2025-01-06
+"Unhelpful error message (<code>Error: unexpected token: ""(""</code>) when defining method that starts with a capital letter.",kind:bug,15320,2025-01-03
+Expose method to process HTTP requests on HTTP::Server,topic:compiler:codegen,15319,2025-01-03
+splatting into variadic C function yields a BUG,status:discussion,15317,2025-01-01
+Better handling of extra PCRE2 regex options,kind:bug,15316,2024-12-29
+LLVM version in <code>compiler --version</code> may be inaccurate,topic:compiler:semantic,15315,2024-12-26
+format the split to multi-line string error when starts with a #{...},kind:bug,15262,2024-12-10
+Formatting BigDecimal loses precision,topic:tools:formatter,15261,2024-12-10
+Proper handling of special characters in HTTP Cookies,kind:bug,15259,2024-12-09
+Module validation failed: inlinable function call in a function with debug info must have a !dbg location,topic:tools:formatter,15251,2024-12-06
+long-running fiber performance loss since 1.14.0,status:discussion,15242,2024-12-03
+[formatter] Index out of bounds (IndexError) When run formatter,topic:stdlib:networking,15237,2024-11-29
+Making <code>LLVM::ABI</code> a private API,breaking-change,15227,2024-11-25
+Replace <code>Iterator#slice</code> and <code>Iterator#each_slice</code> with <code>Iterator#in_slices_of</code>,status:discussion,15223,2024-11-24
+UNIXSocket.new should accept <code>Path</code> in addition to <code>String</code>,status:someday,15218,2024-11-23
+Handle 0X in String to integer conversions,topic:stdlib:collection,15214,2024-11-22
+Disallow type declarations for local variables in scopes where it's impossible to call them,kind:bug,15203,2024-11-18
+Bug: Formatter removes newline inside parentheses for generic type arguments,topic:tools:formatter,15202,2024-11-16
+Should ECR provide support for escaping rendered output?,platform:darwin,15130,2024-10-26
+<code>ThreadLocalValue</code> is not fiber-aware,topic:infrastructure/ci,15129,2024-10-25
+Better handling of Hash with default block but of the wrong type,kind:bug,15120,2024-10-23
+"Add a ""prefill"" method to IO::Buffered with read buffering",topic:stdlib:networking,15112,2024-10-21
+"Compilation error when using generic inheritance, class variable and union",kind:bug,15088,2024-10-16
+Formatting a call on an instance variable directly within short block syntax,topic:compiler:semantic,15085,2024-10-15
+Add OSSF Scorecard GH Action and badge to README,topic:lang:type-system,15078,2024-10-11
+Thread-safety for union types,kind:bug,15075,2024-10-11
+Linker on macOS prints excessive warnings in CI,topic:tools:formatter,15063,2024-10-07
+Buffered <code>Socket#close</code> may not return if TCP send buffer is full,kind:bug,15062,2024-10-04
+Allow method overloads for <code>enum</code> members,status:discussion,15057,2024-10-03
+Stack size of non-main threads on POSIX,topic:multithreading,15045,2024-09-27
+<code>bin\crystal run</code> wrapper does not terminate if interrupts are ignored,kind:bug,14985,2024-09-06
+Nil assertion failed (NilAssertionError),kind:bug,14984,2024-09-06
+Error: can't restrict Array(A | B) to Array(A | B),status:discussion,14983,2024-09-06
+Store annotations within the node they annotate,topic:infrastructure/ci,14967,2024-09-04
+Crystal compiler error: Element not found (Enumerable::NotFoundError),kind:bug,14960,2024-09-03
+Loading debug symbols is not thread-safe on Windows,topic:compiler:interpreter,14954,2024-09-01
+Truncated quotient and remainder,topic:lang:type-system,14952,2024-08-30
+Setting instance variable of file-private type in def parameter breaks with restriction augmenter,kind:bug,14948,2024-08-27
+Crystal Compiler error: Module validation failed: GEP base pointer is not a vector or a vector of pointers,platform:windows,14942,2024-08-24
+Inverse of <code>Int#digits</code>,topic:infrastructure,14939,2024-08-23
+Reduce CI usage,topic:stdlib:system,14935,2024-08-23
+<code>Object#crystal_type_id</code> returns different value for virtual type in interpreter,kind:feature,14913,2024-08-15
+A [no overflow check] compiler direective,kind:bug,14851,2024-07-30
+Proposal: <code>IO::DupReader</code>,topic:stdlib:concurrency,14850,2024-07-30
+Support  double splatting on NamedTuple union.,kind:bug,14839,2024-07-29
+<code>Digest</code> should be an <code>IO</code>,topic:stdlib:networking,14832,2024-07-25
+Third-party library repositories on Windows CI,kind:feature,14828,2024-07-22
+<code>WebSocket.on_close</code> never triggerred,status:discussion,14827,2024-07-22
+Fully qualified name must be used inside a block when assigning to an ivar.,topic:stdlib:system,14811,2024-07-14
+Iterate slice by reference (not by value),kind:bug,14802,2024-07-09
+[RFC] Allow setting timeouts on <code>HTTP::Server::Response</code>,kind:regression,14800,2024-07-08
+Option to launch processes as children,topic:compiler:interpreter,14799,2024-07-08
+LLVM 18 breaks 128-bit integers in the interpreter,topic:compiler:semantic,14793,2024-07-07
+<code>#resume</code> triggers invalid memory access on Mac,kind:feature,14792,2024-07-07
+Add <code>crystal tool method_types</code> for listing method parameter types,kind:feature,14741,2024-06-21
+Cache compiler results for tools,topic:stdlib:macros,14738,2024-06-21
+Crystal::Macros::Arg#restriction method always returns Nop,kind:feature,14731,2024-06-19
+Internal error when using <code>sizeof</code> as generic type argument in inferred ivar type,topic:stdlib,14727,2024-06-18
+<code>close_on_exec</code> on Windows,kind:bug,14717,2024-06-15
+UTF-8 support in Windows API,topic:compiler:semantic,14711,2024-06-14
+Nilable <code>Proc</code> types inside libs,kind:bug,14705,2024-06-12
+Allocation of non-zeroed memory for performance boost,topic:compiler:semantic,14696,2024-06-11
+Visit the Time.local in the macro.,platform:windows,14690,2024-06-11
+Include more types in <code>crystal tool hierarchy</code>,status:discussion,14689,2024-06-11
+Captured block parameter not recognised when used inside macro,topic:stdlib:system,14687,2024-06-10
+Customizing or hiding <code>Benchmark.ips</code>'s output format,kind:feature,14681,2024-06-10
+Duplicate ancestors in <code>ReferenceStorage</code>,status:discussion,14608,2024-05-22
+<code>Module validation failed</code> with proc in recursive def,topic:infrastructure,14605,2024-05-22
+Add methods for filling a buffer from an IO greedily/lazily,help wanted,14603,2024-05-21
+Loc pragma directly after <code>def</code> makes parser skip token,kind:feature,14597,2024-05-15
+Console streams are blocking on Windows,topic:stdlib:files,14596,2024-05-15
+The warning when building for FreeBSD and OpenBSD,kind:feature,14586,2024-05-12
+<code>Range</code> includes <code>Enumerable</code> but doesn't always implement it,topic:stdlib:text,14585,2024-05-10
+Crystal REPL instantly executes statement with intertwined heredoc,kind:bug,14582,2024-05-10
+Add API for <code>Base64.encode</code> / <code>Base64.decode</code> with an <code>IO</code> as the source,topic:compiler:interpreter:repl,14580,2024-05-09
+Redirecting standard streams feels more hackish/clumsy than it needs to be,kind:bug,14576,2024-05-08
+Enable <code>ameba</code> in this repo,topic:compiler:codegen,14564,2024-05-04
+crystal tool format doesn't work within nested macros,kind:bug,14551,2024-05-01
+Catching hard failures in prelude-less codegen specs,kind:bug,14467,2024-04-09
+"When monkeypatching with <code>previous_def</code> with namespaced types in the method signature, that namespace seems to be missed",topic:compiler,14464,2024-04-09
+Explicitly returning a lib struct or tuple inside a <code>fun</code> results in a codegen error,kind:bug,14460,2024-04-08
+invalid instruction when referencing overridden private interface types,topic:compiler:interpreter,14453,2024-04-07
+Abstract def overload with free var,topic:compiler:interpreter:repl,14451,2024-04-07
+Invalid memory access when dynamically extending type,status:discussion,14450,2024-04-07
+<code>previous_def</code> does not work with top-level funs,topic:stdlib:text,14446,2024-04-06
+Discrepancy in <code>String#rindex</code> for out-of-bound search offsets,kind:bug,14423,2024-04-02
+Can't use Atomic with Int128 or UInt128,topic:stdlib:concurrency,14422,2024-04-02
+Incorrect formatting of multi-line macro expression with comment as first line,kind:bug,14405,2024-03-27
+io/console,topic:compiler:semantic,14396,2024-03-26
+Semantics of <code>Process.exec</code> on Windows,kind:bug,14392,2024-03-22
+Actual nightly releases on Windows,kind:bug,14344,2024-03-05
+Interpreter hits Invalid memory access (after Error: BUG: no target defs),topic:compiler:interpreter:repl,14332,2024-02-28
+Another codegen error involving instance variables with <code>Iterator</code> type,platform:windows,14317,2024-02-23
+Spec: Time is not reported accurately,status:discussion,14312,2024-02-20
+Comparisons between integers and floats are inexact,topic:compiler:cli,14307,2024-02-19
+Crystal tool context/implementations with ECR,kind:bug,14303,2024-02-18
+"Implement new UUID versions (V6, V7, V8)",topic:compiler:codegen,14300,2024-02-16
+Using <code>lld-link</code> as a linker,topic:compiler:generics,14288,2024-02-07
+<code>LLVM::TargetData</code> cannot be disposed,kind:feature,14284,2024-02-04
+Linking against the debug MSVC runtime libraries,platform:windows,14281,2024-02-01
+<code>Math.pow</code> returns different results between <code>Int</code> and <code>Float</code> exponents,topic:stdlib:runtime,14280,2024-01-31
+Command prompt escaping in <code>Process.quote_windows</code>,kind:bug,14256,2024-01-26
+Has crystal ever considered adding dynamic require,kind:feature,14178,2024-01-07
+Confusing error when generic type variable is a union between base and derived type,status:discussion,14173,2024-01-06
+Strongly typed code generation specs,status:discussion,14154,2024-01-01
+Run spec suite in <code>macro finished</code> hook instead of <code>at_exit</code>,topic:stdlib:collection,14153,2024-01-01
+Making wrappers of C handle types more atomic,topic:stdlib:files,14151,2023-12-31
+<code>HashLiteral</code> and <code>NamedTupleLiteral</code> QoL,kind:bug,14121,2023-12-20
+Flatten buffer growth algorithms,topic:compiler:generics,14109,2023-12-18
+Uppercase instance or class variables,kind:feature,14107,2023-12-17
+Random memory corruption with generics and inheritance,topic:stdlib,14093,2023-12-14
+Interpreter: Cast from Crystal::TypeDefType to Crystal::PointerInstanceType failed,kind:bug,14091,2023-12-14
+Customizable Indentation in OptionParser Help Messages,topic:compiler:codegen,14090,2023-12-14
+Export Steppable::StepIterator's ivars as getters,topic:compiler:interpreter,14083,2023-12-13
+Flush file output on program exit,kind:bug,14037,2023-12-02
+ICE: <code>Double free or corruption (out)</code>,topic:compiler:codegen,14033,2023-12-01
+Annotation for <code>crystal tool unreachable</code> to ignore certain functions,kind:feature,14032,2023-12-01
+Make playground workbook recognize idiomatic code block tags in Markdown files,topic:lang,14030,2023-11-30
+Standards-compliant alternative to <code>OpenSSL::X509::Name.parse</code>,kind:bug,14028,2023-11-29
+<code>File.join</code> with a path kind,kind:feature,14023,2023-11-27
+Overlapping matches in <code>String#scan</code> and <code>#rindex</code>,topic:stdlib:text,14011,2023-11-22
+File#mkfifo is missing from the std lib.,status:discussion,14009,2023-11-22
+Non-raising <code>Char::Reader</code> API,topic:stdlib:specs,14002,2023-11-21
+Arithmetic Overflow with large range in macro,status:discussion,14000,2023-11-21
+Inconsistent use of <code>#inspect</code> in <code>expect_raises</code>,topic:tools:playground,13995,2023-11-18
+Querying a type's alignment,status:discussion,13993,2023-11-17
+Interpreter REPL unable to recalculate type throws inconclusive type errors,kind:bug,13913,2023-10-28
+"If the time information of <code>Compress::Zip::FileInfo</code> is empty, raise an exception.",topic:compiler:semantic,13903,2023-10-24
+<code>root</code> property of <code>JSON::Field</code> should support nested keys,status:discussion,13899,2023-10-22
+CLI: Warn but not fail on invalid arguments,topic:compiler:parser,13895,2023-10-17
+Cannot render infinity/nan using macros,kind:bug,13894,2023-10-17
+"""Module validation failed: GEP base pointer is not a vector or a vector of pointers""",topic:compiler:semantic,13892,2023-10-16
+File-private namespace type can be leaked through file-private def,kind:bug,13890,2023-10-15
+Constants are null pointers in WASM when methods are invoked directly,topic:compiler:semantic,13889,2023-10-14
+LF and CRLF incompatabilities in string/symbol/heredoc/char literals,good first issue,13888,2023-10-13
+shards install : crystal/shards not found ,help wanted,13885,2023-10-11
+Incorrect namespace lookup when resolving constant to compile-time number,kind:feature,13879,2023-10-10
+Using <code>crystal tool unreachable</code> creates a stack overflow,topic:stdlib:serialization,13873,2023-10-09
+<code>Log::AsyncDispatcher</code> causes <code>Channel::ClosedError</code> if message is logged in fiber that never executes before program exit,kind:feature,13800,2023-09-13
+Should Crystal have UDPServer?,topic:stdlib:numeric,13799,2023-09-12
+Add the ability to use out on Crystal methods and procs,kind:feature,13794,2023-09-10
+Interpreter: BUG: missing call receiver by value,kind:feature,13791,2023-09-09
+Top level return within begin/end scope for ivar assignment with abstract def masks type inference error,topic:stdlib:networking,13787,2023-09-04
+Escape HTML in doc generation,kind:bug,13766,2023-08-25
+Power of Complex Numbers,platform:android,13765,2023-08-25
+Computations in <code>begin..end</code> not evaluated for class/instance variables,topic:stdlib:networking,13763,2023-08-24
+Argument forwarding doesn't work when passing symbol to a enum type,kind:bug,13757,2023-08-18
+Add concurrent socket server,topic:compiler:semantic,13756,2023-08-18
+Include static assets in doc generator,kind:feature,13753,2023-08-17
+no internet access in Termux like golang,status:discussion,13752,2023-08-16
+Non-flag subfields of flag enums,performance,13692,2023-07-22
+Two classes of different types cannot be equal,status:discussion,13688,2023-07-21
+Update Int document for Int128/UInt128 support.,topic:stdlib:numeric,13687,2023-07-21
+Combined assignment issue with structs,kind:bug,13684,2023-07-20
+[RFC] Change inclusive/exclusive range operator,topic:compiler:codegen,13675,2023-07-18
+[RFC] Add <code>Array#intersects?</code> (or <code>Indexable#intersects?</code>),topic:compiler:generics,13671,2023-07-17
+Writing UTF-16 to an <code>IO::Memory</code> directly,kind:bug,13668,2023-07-15
+FR: Static Constructors for UDPSocket,kind:feature,13664,2023-07-14
+"Runtime crash with complex feature mixture (generics, interfaces, inheritance, structs)",topic:stdlib:collection,13648,2023-07-10
+Overflow in <code>Range</code>s with unsigned end value,breaking-change,13647,2023-07-10
+Integration tests for compiler CLI,kind:feature,13641,2023-07-08
+Performance differences using to_u128,status:discussion,13639,2023-07-06
+Symbol literals allow '\r' without following '\n',kind:docs,13585,2023-06-20
+Support multi-assignment  in if condition.,status:discussion,13584,2023-06-20
+Comments allow '\r' without following '\n',topic:stdlib:networking,13582,2023-06-20
+Backslash-Newline-Newline in String literals,kind:bug,13577,2023-06-19
+Case folding should be neither lowercase nor uppercase,topic:compiler:parser,13569,2023-06-15
+Improve documentation for the HTTP/FormData Page,kind:feature,13566,2023-06-15
+Support multi-assignment on select/when statement.,topic:stdlib,13545,2023-06-02
+"Feature Request | Not-nillable {property,getter}! with blocks",kind:feature,13544,2023-06-02
+"Confusing ""missing argument"" error when forwarding by double splat",topic:lang,13541,2023-06-02
+<code>Unicode::CaseOptions::ASCII</code> and <code>Turkic</code> are mutually exclusive,topic:stdlib:concurrency,13537,2023-05-31
+Getting just the top of the stack trace,kind:feature,13535,2023-05-31
+Type Subtraction,status:discussion,13534,2023-05-31
+Ensure AST nodes have correct locations,kind:bug,13474,2023-05-16
+Pseudo-method inconsistencies,topic:compiler:interpreter,13472,2023-05-15
+[Playground] You've reached a bug in the playground,status:discussion,13471,2023-05-15
+Compiler bug when yielding tuple with <code>NoReturn</code>,topic:lang,13470,2023-05-15
+Cannot yield to multiple <code>_</code> block parameters in interpreter,platform,13466,2023-05-13
+Constants with type declarations,status:discussion,13459,2023-05-12
+Default file create permissions,topic:stdlib:system,13455,2023-05-11
+Docs are wrong for Dir.mkdir and mkdir_p,kind:bug,13453,2023-05-10
+Permissions for deleting a file,topic:stdlib:numeric,13443,2023-05-07
+x86-64 Intel syntax support for <code>--emit=asm</code>,topic:tools:playground,13441,2023-05-05
+Reopening or sharing <code>LibC</code> types properly,kind:bug,13437,2023-05-05
+Wrong error message for enum members in methods,kind:docs,13432,2023-05-05
+"Add coprime?(a,b) or a.coprime?(b) method",status:discussion,13386,2023-04-24
+Performance regression in 1.8.0 vs 1.7.3,topic:compiler:parser,13382,2023-04-24
+Regex matching methods missing match options,topic:lang,13380,2023-04-23
+CacheDir.instance.cleanup kills in-use directory of other active processes,kind:feature,13379,2023-04-22
+Unset type ID in <code>Log::Metadata.new</code>,topic:stdlib:networking,13377,2023-04-21
+Anticipating the lack of standard streams in the standard library,kind:feature,13368,2023-04-20
+<code>Log::Metadata#extend</code> should append not prepend data (like e.g. <code>NamedTuple#merge</code>),topic:stdlib:numeric,13366,2023-04-20
+Inconsistency with <code>Array(T)#[]?(range : Range)</code> when range is beginless or starts with <code>0</code>.,kind:feature,13360,2023-04-20
+Require semicolon or newline before method body,kind:bug,13330,2023-04-17
+<code>expected argument to ... to be Type not Type</code> Error Message needs to be Changed as Special Case,topic:compiler:generics,13327,2023-04-16
+crystal build --cross-compile should generate a helpful target script,kind:bug,13323,2023-04-15
+<code>Socket::IPAddress</code> constructors,status:discussion,13316,2023-04-13
+Incorrect error location when member value overflows enum type,status:discussion,13239,2023-03-28
+Read-only attribute versus read permissions,topic:stdlib:networking,13236,2023-03-28
+Linker error leads to missing symbols on builds with lots of object files,platform,13233,2023-03-27
+crystal tool format on 'Range',status:discussion,13221,2023-03-24
+Revisit <code>require</code> lookup paths,topic:stdlib:files,13216,2023-03-23
+extra files option for crystal doc,kind:feature,13210,2023-03-21
+JSON::Serializable discriminator with default value,platform:windows,13209,2023-03-21
+BUG: missing interpret for Crystal::Splat,topic:stdlib:files,13202,2023-03-19
+Codegen bug: Call parameter type does not match function signature,kind:bug,13193,2023-03-16
+Websocket improvements,topic:compiler:semantic,13184,2023-03-12
+<code>previous_def</code> seems to lose information regarding a double-splat when used in a macro.,kind:feature,13183,2023-03-12
+Fine-grained file permissions on Windows,topic:stdlib:serialization,13176,2023-03-10
+HTTP::Server vs ApplicationServer,kind:feature,13111,2023-02-25
+Issue with <code>with ... yield</code> and class declaration in block (Compiler crash),kind:feature,13104,2023-02-22
+<code>UUID.[]</code> constructor,topic:stdlib:concurrency,13101,2023-02-21
+Block loses return value,kind:bug,13099,2023-02-20
+Add size and capacity methods to Channel class,topic:compiler:semantic,13094,2023-02-20
+Error: undefined constant Int::MIN when saying a method returns Number,kind:bug,13085,2023-02-17
+Disallowing expectation matches outside specs,topic:stdlib:numeric,13083,2023-02-16
+Obtaining the signature of a <code>Def</code>,kind:bug,13082,2023-02-16
+ <code>('A'..'Z') === nil</code> must return nil if it can’t match the value instead of give a compilation error.,topic:stdlib:collection,13081,2023-02-16
+ Compiler error when assigning <code>nil</code> to instance var with a type. ,kind:bug,13078,2023-02-15
+Add a way to use the <code>of</code> keyword using non-Array collection types.,topic:compiler:semantic,13074,2023-02-14
+Helper macro for <code>NotImplementedError</code>,kind:feature,13072,2023-02-14
+JSON praser can't take an int128,status:discussion,12999,2023-01-24
+<code>#delete!</code> for collections,topic:stdlib:numeric,12991,2023-01-22
+Interpreter: Error: BUG: missing call receiver by value cast from (Loader | Nil) to Loader (Crystal::MixedUnionType to Crystal::NonGenericModuleType),kind:bug,12990,2023-01-22
+Arithmetic overflow when deserializing large JSON file,kind:bug,12980,2023-01-19
+Priority of unary <code>-</code> relative to <code>**</code>,topic:compiler:semantic,12971,2023-01-18
+<code>__crystal_once</code> mechanism doesn't reliably detect recursive constants,status:discussion,12970,2023-01-17
+Compiler confused about symbolic link in path to stdlib ,topic:stdlib:system,12969,2023-01-17
+Weird codegen error when assigning <code>Proc</code> instance variable of extern struct,status:discussion,12965,2023-01-16
+Calling <code>Process#wait</code> multiple times?,topic:tools:docs-generator,12953,2023-01-13
+Problem in design of with <code>docs</code> in crystal compiler,kind:bug,12949,2023-01-13
+Constants referring to itself cause SIGSEGV in Semantic (cvars initializers) phase,topic:compiler:codegen,12946,2023-01-12
+Improve the DX of the <code>has_constant?</code> macro method with namespaced types/constants,kind:bug,12944,2023-01-11
